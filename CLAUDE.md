@@ -14,6 +14,11 @@ The template provides the build system, CI/CD, and project structure. Plugin-spe
 lives in `source/` — replace the placeholder gain/filter example there with your plugin's DSP.
 Run `./rename.sh` to set the new plugin's identity (see README.md).
 
+This template is part of the wider Indie suite — see
+[indie-doubler's docs/ROADMAP.md](https://github.com/FXDecroix/indie-doubler/blob/main/docs/ROADMAP.md)
+for the multi-repo plan (indie-doubler, indie-shared-dsp, indie-plugin-template) and current
+phase status.
+
 Builds default to **Debug** mode for development (faster builds, better debugging). If audio
 performance issues come up (dropouts, high CPU) while using the plugin, build in **Release**
 mode instead.
